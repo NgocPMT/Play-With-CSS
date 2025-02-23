@@ -1,0 +1,28 @@
+.link-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+section a {
+  padding: 1.5rem 3rem;
+
+  background-color: #A27B5C;
+  color: #DCD7C9;
+
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 0 0.5rem rgba(0, 0, 0, 0.3);
+  transition: all 0.1s linear;
+}
+
+section a:hover {
+  background-color: #A27B5C;
+  opacity: 0.8;
+}
+
+section a:active {
+  box-shadow: 0 0.3rem rgba(0, 0, 0, 0.3);
+  transform: translateY(0.2rem);
+}
